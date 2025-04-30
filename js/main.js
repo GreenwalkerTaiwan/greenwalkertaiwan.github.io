@@ -602,7 +602,7 @@ const sco = {
   homeTypeit() {
     if (typeof home_subtitle === "undefined") return;
     const ty = new TypeIt(".banners-title-small", {
-      speed: 200,
+      speed: 400,
       waitUntilVisible: true,
       loop: true,
       lifeLike: true,
