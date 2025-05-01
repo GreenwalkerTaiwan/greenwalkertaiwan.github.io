@@ -122,7 +122,7 @@ initTheme()</script><!-- global head--><script>const GLOBAL_CONFIG = {
             night: "安全的步行空間，從你我做起",
             goodnight: "為明天的美好環境努力 🌱",
         },
-        witty_words: [],
+        witty_words: ["為綠色交通努力","推動無障礙人行環境","安全的步行空間，從你我做起","讓我們一起打造友善步行空間","為明天的美好環境努力"],
         witty_comment: {
             prefix: '好久不見，',
             back: '歡迎再次回來，',
@@ -241,7 +241,7 @@ document.addEventListener('pjax:error', (e) => {
     }
 })</script><!-- google adsense--><!-- search--><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜尋</span><button class="search-close-button"><i class="solitude fas fa-xmark"></i></button></nav><div class="search-wrap"><div class="search-box"><input class="search-box-input" id="search-input" type="text" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="off" placeholder="輸入關鍵詞快速查找"></div><div id="search-results"><div id="search-hits"></div></div><div id="search-pagination"></div><div id="search-tips"></div></div></div><div id="search-mask"></div></div><script src="/js/search/local.js?v=3.0.19"></script><!-- music--></body></html>
         <script>
-            const posts = ["2025/04/10/20250430/","2025/04/20/20250420/","2025/04/21/20250421/"];
+            const posts = ["2025/04/21/20250421/","2025/04/20/20250420/","2025/04/10/20250430/"];
             function toRandomPost() {
                 const randomPost = posts[Math.floor(Math.random() * posts.length)];
                 pjax.loadUrl(GLOBAL_CONFIG.root + randomPost);
